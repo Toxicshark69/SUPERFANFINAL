@@ -1,0 +1,74 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: block;
+}
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.foundation {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.brick {
+  height: 100%;
+  width: 50%;
+}
+.box {
+  height: 100%;
+  width: calc(100% / 2);
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* opaque = not able to be seen through, the default opacity for elements is 1 */
+/* transparent = totally see-through, this would be an opacity of 0 */
+.translucent {
+  opacity: 0.5;
+}
+
+/* colors */
+.green {
+  background-color: #08aa4b;
+}
+.light_blue {
+  background-color: #0b69c0;
+}
+.purple {
+  background-color: #0f50c9;
+}
+.red {
+  background-color: #ff06ea;
+}
+.orange {
+  background-color: #09ff09;
+}
+.black {
+  background-color: #000000;
+}
+.white {
+  background-color: #ffffff;
+}
+.light-grey {
+  background-color: #a9a9a9;
+}
+.dark-grey {
+  background-color: #707070;
+}
+
+/* you may choose to use this class for one of the challenges */
+.hide {
+  display: none;
+}
+.invisible {
+  visibility: hidden;
+}
+h1 {
+  font-size: 100px;
+}

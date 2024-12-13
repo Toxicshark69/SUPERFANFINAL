@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JS #1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Notice how each div has an 'onclick' attribute which links to a function in the JS file -->
+    <div class="foundation light-grey center-content">
+      <div class="brick green center-content">
+        <img
+          src="images/CROUCHING GENJI.png"
+          onclick="changePicture1()"
+          id="AntiHero1"
+        />
+      </div>
+      <div class="brick red center-content">
+        <img src="images/NEON GENJI MYTHIC .png" onclick="changeaudio()" />
+      </div>
+    </div>
+    <div class="foundation dark-grey center-content">
+      <div class="brick orange center-content">
+        <img src="images/OWLOGO.png " onclick="changesound()" id="AntiHero3" />
+      </div>
+      <div class="brick purple center-content">
+        <img
+          src="images/STANDING GENJI .png "
+          onclick="changePicture2()"
+          id="AntiHero4"
+        />
+        <iframe
+          class="hide"
+          id="youtube"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/oJ09xdxzIJQ?autoplay=1&controls=0&start=278"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <audio
+      src="audio/GENJI ULTIMATE AUDIO.mp3"
+      type="mp3"
+      id="AntiHero2"
+    ></audio>
+    <audio src="audio/VictoryTheme.mp3" type="mp3" id="Victory"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
